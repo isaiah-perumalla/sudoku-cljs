@@ -1,0 +1,3 @@
+{:main       sudoku-cljs.core
+ :output-dir "out"
+ :output-to  "out/dev-main.js"}
