@@ -15,4 +15,8 @@
 
   :prod {:main-opts ["--main"          "figwheel.main"
                      "--optimizations" "advanced"
-                     "--build-once"    "prod"]}}}
+                     "--build-once"    "prod"]}
+
+  :test {:main-opts ["-m"  "cljs.main"
+                     "-c"  "sudoku_cljs.test_runner"
+                     "-r"]}}}
