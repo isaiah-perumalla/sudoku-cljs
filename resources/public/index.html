@@ -176,8 +176,19 @@
   </head>
   <body>
     <div id="app"> </div>
+    <p> Graphs </p>
+    <div id="graphs"></div>
+
     <script src="/cljs-out/dev-main.js" type="text/javascript"></script>
+
+    
 
 
   </body>
+  <footer>
+    <script  type="text/javascript">
+      goog.require('sudoku_cljs.graphs');
+      sudoku_cljs.graphs.render_graph_upload("graphs");
+      </script>
+  </footer>
 </html>

@@ -1,4 +1,4 @@
-# core
+# Sudoku solver in clojurescript
 
 ## Quick Start
 
@@ -12,6 +12,10 @@
 
   http://localhost:9500
 
+## run tests
+```bash
+  clj -M:test
+  ```
 
 ## Build Production
 
